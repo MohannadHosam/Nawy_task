@@ -34,12 +34,12 @@ jobs:
 
       - name: Run ESLint
         run: node_modules/.bin/eslint build docs lib script spec-main -f node_modules/@microsoft/eslint-formatter-sarif/sarif.json -o results.sarif || true
-      - name: Debug - List files in working directory
-        run: ls -R 
-        
+      
+
       - name: Upload analysis results to GitHub
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: results.sarif
           wait-for-processing: true
-      
+      - name: Debug - List files in working directory
+        run: ls -R 
