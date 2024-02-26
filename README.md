@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a basic "Hello World" web application in Node.js. The application is containerized using Docker, and a CI/CD pipeline is set up using GitHub Actions. The deployment is managed using Terraform.
+This repository contains a basic "Hello Node" web application in Node.js. The application is containerized using Docker, and a CI/CD pipeline is set up using GitHub Actions. The deployment is managed using Terraform.
 
 ## Table of Contents
 
