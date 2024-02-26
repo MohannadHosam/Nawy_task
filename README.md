@@ -69,7 +69,7 @@ The application is containerized using Docker. To create the Docker image, follo
     CMD npm start
     ```
 
-2. Build the Docker image.
+2. Build the Docker image (for example, choose any name for the tagging part).
 
     ```bash
     docker build -t simple-web-app .
@@ -111,3 +111,4 @@ Follow the instructions in the Terraform configuration files to deploy the appli
 cd terraform
 terraform init
 terraform apply
+```
