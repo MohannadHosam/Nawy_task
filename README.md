@@ -112,3 +112,32 @@ cd terraform
 terraform init
 terraform apply
 ```
+
+## Table of Contents of new Relic
+
+- [1. Create a New Relic Account](#1-create-a-new-relic-account)
+- [2. Obtain License Key](#2-obtain-license-key)
+- [3. Install New Relic Node.js Agent](#3-install-new-relic-nodejs-agent)
+- [4. Configure newrelic.js](#4-configure-newrelicjs)
+- [5. Update npm start Script](#5-update-npm-start-script)
+- [6. Verify Integration](#6-verify-integration)
+
+## 1. Create a New Relic Account
+
+If you don't have a New Relic account, sign up for a free account on the [New Relic website](https://newrelic.com/).
+
+## 2. Obtain License Key
+
+After creating the account, obtain the New Relic license key from the New Relic One platform.
+
+## 3. Install New Relic Node.js Agent
+
+Install the New Relic Node.js agent as a dependency:
+
+```bash
+npm install newrelic
+```
+
+## Then configure the newRelic in the "newrelic.js" file
+## Then Update the "start" script in your package.json
+## Run the application and verify that it's sending data to New Relic using "npm start"
