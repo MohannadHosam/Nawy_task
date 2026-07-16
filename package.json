@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/johnpapa/node-hello#readme",
   "dependencies": {
-    "newrelic": "^11.10.4",
+    "newrelic": "^11.23.2",
     "relic": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.7.0"
   }
 }
